@@ -1,0 +1,44 @@
+page-categoria {
+
+    ion-content {
+       /*  background: url(/assets/imagens/food001.jpg) no-repeat; */
+        
+    }
+
+    ion-content img {
+       /*  width: 100%; */
+         
+     }
+
+    ion-content span {
+        color: black;        
+        font-size: 1.8rem;
+        text-align: center;
+        display: block;
+        font-weight: bold;
+      }
+
+    ion-segment {
+        margin-top: -20px;
+        display: block;
+        white-space: nowrap;
+        font-size: 0;
+        overflow: auto;
+    
+        &::-webkit-scrollbar {
+          width: 0;
+          height: 0;
+          display: none;
+        }
+    
+        ion-segment-button.segment-button {
+          display: inline-block;
+          min-width: 130px;
+          width: auto;
+        }
+      }
+
+
+
+
+}
